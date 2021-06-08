@@ -12,23 +12,32 @@
 
 <body>
   <div class="content">
-    <form id='form-enq' class='field'action="submit">
+    <form id='form-enq' class='field' onsubmit="return show_alert(this)">
       <label for="Name">Name</label>
-      <input type="text" name="Name" id="user-name" placeholder="Username"> <br>
+      <input type="text" required='required' name="Name" id="user-name" placeholder="Username"> <br>
 
       <label for="Number">Number</label><br>
-      <input type="number" name="number" id="num" placeholder="Number"><br>
+      <input type="number" required='required' name="number" id="num" placeholder="Number"><br>
 
       <label for="Email">Email</label><br>
-      <input type="email" name="Email" id="email" placeholder="Email"><br>
+      <input type="email" required='required' name="Email" id="email" placeholder="Email"><br>
 
       <label for="Enquiry"> Enquiry</label><br>
-      <textarea name="Enquiry" id="enquiry" cols="30" rows="10" placeholder="Your inqury here"></textarea><br>
+      <textarea name="Enquiry" required='required' id="enquiry" cols="30" rows="10"
+        placeholder="Your inqury here"></textarea><br>
 
       <button type="submit">Submit</button>
     </form>
   </div>
 
 </body>
+<script>
+  function show_alert() {
+    if (!confirm("Do you want to submit form?")) {
+      return false;
+    }
+    this.form.submit();
+  }
+</script>
 
 </html>
