@@ -104,8 +104,8 @@ button{
 }
 
 button:focus{
-  color: #74037e;
-  background: #cac8ca;
+  color: #100053;
+  background: #770177;
   box-shadow: inset 2px 2px 5px #babecc,
               inset -5px -5px 10px #ffffff73;
 }
