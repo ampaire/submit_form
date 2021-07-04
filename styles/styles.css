@@ -38,7 +38,7 @@ body{
   width: 100%;
   margin-top: 10px;
   padding-left: 15px;
-  font-size: 18px;
+  font-size: 13px;
   margin-bottom: 20px;
   outline: none;
   border: none;
@@ -60,7 +60,7 @@ body{
 }
 
 .field label{
-  font-weight: 700;
+  font-weight: 400;
   text-align: start;
   pointer-events: none;
   color: #666666;
@@ -71,7 +71,7 @@ body{
   height: 100px;
   padding: 15px 0 0 15px;
   margin-top: 15px;
-  font-size: 18px;
+  font-size: 13px;
   outline: none;
   border: none;
   color: #595959;
