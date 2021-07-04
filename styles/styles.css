@@ -12,12 +12,12 @@ html,body{
 body{
   display: grid;
   place-items: center;
-  background: #f3d8f1;
+  background: #f2f2f2;
 }
 
 .content{
   width: 330px;
-  background: #f3d8f1;
+  background: #f2f2f2;
   border-radius: 10px;
   padding: 40px 30px;
   box-shadow: -3px -3px 7px 5px #ffffff73,
@@ -43,14 +43,14 @@ body{
   outline: none;
   border: none;
   color: #595959;
-  background: #f3d8f1;
+  background: #f2f2f2;
   border-radius: 25px;
   box-shadow: inset 2px 2px 5px #babecc,
               inset -5px -5px 10px #ffffff73;
 }
 
 .field input:focus ~ label{
-  background: #f3d8f1;
+  background: #f2f2f2;
   box-shadow: inset 2px 2px 5px #babecc,
               inset -1px -1px 2px #ffffff73;
 }
@@ -75,7 +75,7 @@ body{
   outline: none;
   border: none;
   color: #595959;
-  background: #f3d8f1;
+  background: #f2f2f2;
   border-radius: 25px;
   box-shadow: inset 2px 2px 5px #babecc,
               inset -5px -5px 10px #ffffff73;
@@ -93,7 +93,7 @@ button{
   color: rgb(85, 84, 84);
   font-size: 18px;
   font-weight: 600;
-  background: #f3d8f1;
+  background: #f2f2f2;
   border: none;
   outline: none;
   cursor: pointer;
